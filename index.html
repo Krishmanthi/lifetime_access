@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magical Letter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Envelope Section -->
+    <div id="envelopeContainer" onclick="openLetter()">
+        <p class="instruction">Open the Envelope</p>
+        <img id="envelope" src="envelop.png" alt="Envelope">
+    </div>
+
+    <!-- Letter Content -->
+    <div id="letterContainer" class="content-box">
+        <div id="letter" class="fade-in">
+            <p>To My Special Best Friend,</p>
+            <p>Another letter for you, maybe you’re a little annoyed by this, but I hope you’ll bear with me.
+                 I’ll keep it simple this time. ✨</p>
+            <p>I believe that everything in life happens for a reason. At first, I was worried about sending you 
+                that long message, but now, even though I regret hurting you, a part of me feels relieved. 
+                It was never my intention to hurt you, I was completely lost that day. But before I sent it,
+                 I already knew that things between us might never be the same again. Still, I made the choice 
+                 to be true to myself. I didn’t want to pretend. I wanted to be honest, even if it meant risking 
+                 everything. And I left the decision up to you—whether to stay or walk away. But you stayed. 
+                 You fought for our bond. You explained things to me. And that… means more to me than I can 
+                 put into words. 💫</p>
+            <p>I guess the reason I feel relieved now is that at least one person truly knows me. 
+                People see me as a happy, kind girl, but I’m not perfect. I have flaws. I say the wrong things 
+                when I’m angry. I can be reckless with my words. But now, I have someone who knows all 
+                of that and still chooses to stay. 🙏</p>
+            <p>You once said you regret ruining a friendship. But from my perspective, 
+                you didn’t ruin anything. What you did was what felt right to you. You didn’t fall 
+                for that girl at first sight, you developed feelings after knowing her, and that’s what makes
+                it pure. I’ve always believed that a strong relationship should begin with friendship first. 
+                You confessed your feelings not to destroy the friendship, but because you wanted to be honest. 
+                That’s not ruining anything, that’s respecting the bond. And if people leave us, it’s not because 
+                of what we’ve done, but because they didn’t want to make the effort to stay.And don't get me wrong I'm not trying to cause you any pain by reminding this, just want to make sure
+                that you didn't done anything wrong. </p>
+            <p>I did the same to you. I broke your trust by expecting things from you. 
+                I hurt you with my words. But what did you do? You stayed. You helped me understand. 
+                You told me you didn’t hate me. Thank you for assuring me that no matter how complicated 
+                things get, I still have you.</p>
+            <p>And about that "subscription cancellation"... I’m so sorry, bro. I never meant it the way 
+                it sounded. It wasn’t because I found it annoying—it never was. I just thought it might 
+                help you move forward, because sometimes, revisiting the same pain over and over makes it 
+                harder to heal. But I also know that sharing your pain brings relief, and I never want you 
+                to feel like you can’t talk to me.</p>
+            <p>So, one last time I’m truly sorry for the things I said that hurt you. I never meant 
+                them in the way they came across. And if you truly forgive me, if you still want to be 
+                my special best friend forever, click the button below. 🌟</p>
+            <p>With love, your best friend!</p>
+            <button onclick="showTerms()">Click Here</button>
+        </div>
+    </div>
+
+    <!-- Terms & Conditions -->
+    <div id="termsContainer" class="content-box">
+        <div id="termsBox" class="fade-in">
+            <h2>Lifetime Access – Terms & Conditions</h2>
+            <p>By clicking "Accept", you agree to the following:</p>
+            <p>✔️ No matter how heavy the world feels on your shoulders, 
+                never forget, I’m always here to listen. You don’t have to carry it alone.🤗</p>
+            <p>✔️ No matter what happens between us, leaving is not an option. If something ever feels wrong, 
+                talk to me. Explain it to me, and I promise, I’ll come to my senses.🤗</p>
+            <p>✔️ Even if we fight, even if we stop talking for a while, know that my care for you 
+                will never change. Whenever you need me, just reach out, I’ll always be here.🤗</p>
+            <p>✔️ You are not just a friend; you are family. And family means no one gets left behind, 
+                no matter what.🤗</p>
+            <p>✔️ This subscription has no expiry date. You’re stuck with me for life.🤗</p>
+            <button onclick="acceptTerms()">I Accept</button>
+        </div>
+    </div>
+
+    <!-- Final Message -->
+    <div id="finalMessage" class="content-box">
+        <h2>💙 “Too late now, Ji! You’re mine for life. If you ever try to run away, I’ll find you and drag you back. 😌 But also… thank you for staying. It really means everything to me.”</h2>
+        <button onclick="acceptFate()">I accept my fate… (Not that I had a choice🥲)</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
